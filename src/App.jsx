@@ -1,3 +1,4 @@
+import dotenv from "dotenv"
 require("dotenv").config();
 import React, { useState, useEffect } from "react";
 import { HfInference } from "@huggingface/inference";
