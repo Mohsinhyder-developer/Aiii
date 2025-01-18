@@ -1,7 +1,8 @@
+require("dotenv").config();
 import React, { useState, useEffect } from "react";
 import { HfInference } from "@huggingface/inference";
 import './App.css'; // Import your CSS file
-require("dotenv").config();
+
 
 
 const client = new HfInference(process.env.TOKKEN); // Replace with your actual HF token
